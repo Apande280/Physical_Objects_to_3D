@@ -1,0 +1,47 @@
+<mujoco model = "rocket">
+	<compiler angle="radian" autolimits="true"/>
+	<option integrator="implicitfast"/>
+ 	<option gravity="0 0 0"/>
+	<option magnetic="0 0 0"/>
+	<option impratio="0"/>
+	<default>
+  <!-- Panda defaults -->
+		<default class="panda">
+			<material specular="0.5" shininess="0.25"/>
+			<joint armature="0.1" damping="1" axis="0 0 1" range="-2.8973 2.8973"/>
+			<general dyntype="none" biastype="affine" ctrlrange="-2.8973 2.8973"/>
+			<default class="finger">
+			<joint axis="0 1 0" type="slide" range="0 0.04"/>
+			</default>
+		</default>
+
+		<!-- Visual defaults -->
+		<default class="visual">
+			<geom type="mesh" contype="0" conaffinity="0" group="2"/>
+	</default>
+</default>
+	<worldbody>
+        <light name="top" pos="0 0 1"/>
+		<body name="bottle" pos="0 0 0">
+
+			
+			<!-- Rocket main body -->
+			<geom mesh="bottle" class="visual" size= ".00001 .00001 .00001"/>
+			
+		</body>
+
+		<!-- Camera definition -->
+		
+	</worldbody>
+
+	<asset>
+		
+		<mesh name="bottle" file="10106_Computer Mouse_v1_L3.obj" scale=".009 .009 .009"/>\
+		
+	</asset>
+
+	<actuator>
+		
+	</actuator>
+
+</mujoco>
