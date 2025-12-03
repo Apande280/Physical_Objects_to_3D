@@ -15,4 +15,5 @@ python genesis_test.py --model=yolo11n_ncnn_model --source=source --resolution =
 
 Source can be an image or videa saved on computer or 'picamera0' or 'usb0' if using raspberrypi
 
-![COMP ORG - Made with Clipchamp (1)](https://github.com/user-attachments/assets/8f5302cc-17e5-4b8f-8f99-4c023eb95a0e)
+
+<img src="[https://github.com/user-attachments/assets/8f5302cc-17e5-4b8f-8f99-4c023eb95a0e](https://github.com/Apande280/Physical_Objects_to_3D/blob/main/COMP%20ORG%20-%20Made%20with%20Clipchamp%20(1).gif)" width="400">
