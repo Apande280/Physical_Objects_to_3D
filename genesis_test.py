@@ -235,7 +235,7 @@ while True:
             # check cooldown: ONLY spawn every 5 seconds
             if now - last_spawn_time >= 5:
                 bottle["bottle_" + str(items)] = scene.add_entity(
-                    gs.morphs.MJCF(file='/home/apande/Genesis/bottle.xml'),  
+                    gs.morphs.MJCF(file='3D_files/bottle.xml'),  
                 )
                 
                 
@@ -246,7 +246,7 @@ while True:
             now = time.time()   
             if now - last_spawn_time >= 5:
                 cup["cup_" + str(items)] = scene.add_entity(
-                    gs.morphs.MJCF(file='/home/apande/Genesis/cup.xml'),  
+                    gs.morphs.MJCF(file='3D_files/cup.xml'),  
                 )
                 last_spawn_time = now
 
@@ -255,7 +255,7 @@ while True:
         #     now = time.time()   
         #     if now - last_spawn_time >= 7:
         #         person["person_" + str(items)] = scene.add_entity(
-        #             gs.morphs.MJCF(file='/home/apande/Genesis/person.xml'),  
+        #             gs.morphs.MJCF(file='3D_files/person.xml'),  
         #         )
         #         last_spawn_time = now    
 
@@ -263,7 +263,7 @@ while True:
             now = time.time()   
             if now - last_spawn_time >= 7:
                 mouse["mouse_" + str(items)] = scene.add_entity(
-                    gs.morphs.MJCF(file='/home/apande/Genesis/mouse.xml'),  
+                    gs.morphs.MJCF(file='3D_files/mouse.xml'),  
                 )
                 last_spawn_time = now   
 
@@ -273,7 +273,7 @@ while True:
             now = time.time()   
             if now - last_spawn_time >= 7:
                 chair["chair_" + str(items)] = scene.add_entity(
-                    gs.morphs.MJCF(file='/home/apande/Genesis/chair.xml'),  
+                    gs.morphs.MJCF(file='3D_files/chair.xml'),  
                 )
                 last_spawn_time = now 
 
@@ -281,7 +281,7 @@ while True:
             now = time.time()   
             if now - last_spawn_time >= 7:
                 tv["tv_" + str(items)] = scene.add_entity(
-                    gs.morphs.MJCF(file='/home/apande/Genesis/tv.xml'),  
+                    gs.morphs.MJCF(file='3D_files/tv.xml'),  
                 )
                 last_spawn_time = now  
 
